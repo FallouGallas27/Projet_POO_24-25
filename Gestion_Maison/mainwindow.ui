@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>663</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>663</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBase">
+    <property name="title">
+     <string>Base</string>
+    </property>
+    <addaction name="actionCharger"/>
+    <addaction name="actionAfficher"/>
+    <addaction name="actionTaille"/>
+    <addaction name="actionSauvegarder"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuMaison">
+    <property name="title">
+     <string>Maison</string>
+    </property>
+    <addaction name="actionRecherche"/>
+    <addaction name="actionInserer"/>
+    <addaction name="actionSupprimer"/>
+    <addaction name="actionAfficherMaisons"/>
+   </widget>
+   <widget class="QMenu" name="menuFonctionHachage">
+    <property name="title">
+     <string>FonctionHachage</string>
+    </property>
+    <addaction name="actionF1_2"/>
+    <addaction name="actionF2_2"/>
+    <addaction name="actionF3_2"/>
+    <addaction name="actionSansHach"/>
+   </widget>
+   <widget class="QMenu" name="menuCourbe">
+    <property name="title">
+     <string>Courbe</string>
+    </property>
+    <addaction name="actionHachage_SansHachage"/>
+    <addaction name="actionHachage_fi_hachage_fi"/>
+   </widget>
+   <widget class="QMenu" name="menuAide">
+    <property name="title">
+     <string>aide</string>
+    </property>
+   </widget>
+   <addaction name="menuBase"/>
+   <addaction name="menuMaison"/>
+   <addaction name="menuFonctionHachage"/>
+   <addaction name="menuCourbe"/>
+   <addaction name="menuAide"/>
+  </widget>
+  <action name="actionCharger">
+   <property name="text">
+    <string>Charger</string>
+   </property>
+  </action>
+  <action name="actionAfficher">
+   <property name="text">
+    <string>Afficher</string>
+   </property>
+  </action>
+  <action name="actionTaille">
+   <property name="text">
+    <string>Taille</string>
+   </property>
+  </action>
+  <action name="actionSauvegarder">
+   <property name="text">
+    <string>Sauvegarder</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionRecherche">
+   <property name="text">
+    <string>Recherche</string>
+   </property>
+  </action>
+  <action name="actionInserer">
+   <property name="text">
+    <string>Inserer</string>
+   </property>
+  </action>
+  <action name="actionSupprimer">
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </action>
+  <action name="actionF1_2">
+   <property name="text">
+    <string>f1</string>
+   </property>
+  </action>
+  <action name="actionF2_2">
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </action>
+  <action name="actionF3_2">
+   <property name="text">
+    <string>f3</string>
+   </property>
+  </action>
+  <action name="actionSansHach">
+   <property name="text">
+    <string>SansHach</string>
+   </property>
+  </action>
+  <action name="actionHachage_SansHachage">
+   <property name="text">
+    <string>Hachage/SansHachage</string>
+   </property>
+  </action>
+  <action name="actionHachage_fi_hachage_fi">
+   <property name="text">
+    <string>Hachage(fi)/hachage(fi)</string>
+   </property>
+  </action>
+  <action name="actionAfficherMaisons">
+   <property name="text">
+    <string>Afficher Maisons</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
