@@ -5,6 +5,7 @@
 #include <QVBoxLayout>
 #include <QLabel>
 #include <QScrollArea>
+#include <QFrame>
 #include "table_hachage.h"
 
 class DisplayHouseDialog : public QDialog
@@ -16,7 +17,7 @@ public:
 
 private:
     void setupUI();
-    void displayHouseInfo(MAISON* maison);
+    void displayHouseInfo(MAISON* maison, QVBoxLayout* parentLayout);
     table_hachage* tableHachage;
     QVBoxLayout* mainLayout;
     QScrollArea* scrollArea;
